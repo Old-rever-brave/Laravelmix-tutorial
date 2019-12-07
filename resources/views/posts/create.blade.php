@@ -27,5 +27,4 @@
   </form>
  </table>
  <p><a href="/">戻る</a></p>
- <p><a href="/posts/index">コメント履歴へ</a></p>
-@endsection
+ @endsection
