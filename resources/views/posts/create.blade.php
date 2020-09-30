@@ -16,7 +16,7 @@
 
    {{ csrf_field() }}
    
-   <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'インフラ' => 'インフラ', '上流工程' => '上流工程', 'サーバーサイド' =>'サーバーサイド', 'フロントエンド' =>'フロントエンド'])}}</td></tr>
+   <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'serverside' => 'serverside', 'flontend' => 'flontend',  '上流工程' =>'上流工程',  'インフラ' =>'インフラ'])}}</td></tr>
    <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Play framework' => 'Play framework', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
    <tr><th>フロントエンド技術</th><td>{{Form::select('frontend', ['React js' => 'React js', 'Vue.js' => 'Vue.js', 'Angular' =>'Angular','Ember js' =>'Ember js','boot strap' =>'boot strap'])}}</td></tr>
    <tr><th>使用したいデータベース</th><td>{{Form::select('sqls', ['mysql' => 'mysql', 'sqlite' => 'sqlite', 'firebase' => 'firebase'])}}</td></tr>
