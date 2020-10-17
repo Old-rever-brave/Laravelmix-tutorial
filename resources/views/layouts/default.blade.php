@@ -14,8 +14,6 @@
       <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/serverservice.html" class="nav-link">サーバー</a></li>
       <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/frontend.html" class="nav-link">フロントエンド</a></li>
       <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/backend.html" class="nav-link">バックエンド</a></li>
-      <li class="nav-item"><a href="/posts/create" class="nav-link">コメント</a></li>
-      <li class="nav-item"><a href="" class="nav-link">コメント履歴</a></li>
       <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/mypage.html" class="nav-link">TOPへ戻る</a></li>
   </ul>
   </nav>
