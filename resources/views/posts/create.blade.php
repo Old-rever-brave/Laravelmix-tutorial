@@ -16,13 +16,20 @@
 
    {{ csrf_field() }}
    
-   <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'serverside' => 'serverside', 'flontend' => 'flontend',  '上流工程' =>'上流工程',  'インフラ' =>'インフラ'])}}</td></tr>
-   <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Play framework' => 'Play framework', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
-   <tr><th>フロントエンド技術</th><td>{{Form::select('frontend', ['React js' => 'React js', 'Vue.js' => 'Vue.js', 'Angular' =>'Angular','Ember js' =>'Ember js','boot strap' =>'boot strap'])}}</td></tr>
-   <tr><th>使用したいデータベース</th><td>{{Form::select('sqls', ['mysql' => 'mysql', 'mongosql' => 'mongosql', 'sqlite' => 'sqlite', 'firebase' => 'firebase'])}}</td></tr>
-   <tr><th>使用したい言語</th><td>{{Form::select('gengo', ['Java' => 'Java', 'php' => 'php', 'C' =>'C', 'C++' =>'C++','C#' =>'C#','Ruby' =>'Ruby','Java script' =>'Java script','Python' =>'Python', 'Type cript' =>'Type cript', 'VBA' =>'VBA', 'VB' =>'VB', 'Scala' =>'Scala', 'Kotolin' =>'Kotolin','Swift' =>'Swift'])}}</td></tr>
-   <tr><th>使用したいサービス</th><td>{{Form::select('serveres', ['SAKURA' => 'SAKURA', 'CONOHA' => 'CONOHA', 'AZURE' =>'AZURE', 'AWS' =>'AWS','GCP' =>'GCP'])}}</td></tr>
-   <tr><th>使用したいOS</th><td>{{Form::select('os', ['WINDOWS' => 'WINDOWS', 'MACBOOK' => 'MACBOOK', 'Ubuntu' =>'Ubuntu', 'Centos7' =>'Centos7','Soralis' =>'Soralis','Linuxmint' =>'Linuxmint'])}}</td></tr>
+   <tr><th>やってみたい分野</th><td>
+   {{Form::select('category', [ 'Serverside' => 'Serverside', 'Flontend' => 'Flontend',  'PMO' =>'PMO',  'PM' =>'PM','運用保守' =>'運用保守','運用設計' =>'運用設計','設計構築' =>'設計構築','基本設計' =>'基本設計'])}}</td></tr>
+   <tr><th>バックエンド技術</th><td>
+   {{Form::select('fulstack', ['Play framework' => 'Play framework', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Cake PHP'=>'Cake PHP'])}}</td></tr>
+   <tr><th>フロントエンド技術</th><td>
+   {{Form::select('frontend', ['React js' => 'React js', 'Vue.js' => 'Vue.js', 'Angular' =>'Angular','boot strap' =>'boot strap'])}}</td></tr>
+   <tr><th>使用したいデータベース</th><td>
+   {{Form::select('sqls', ['mysql' => 'mysql', 'mongosql' => 'mongosql', 'sqlite' => 'sqlite', 'firebase' => 'firebase'])}}</td></tr>
+   <tr><th>使用したい言語</th><td>
+   {{Form::select('gengo', ['Java' => 'Java', 'php' => 'php', 'C' =>'C', 'C#' =>'C#','Ruby' =>'Ruby','Java script' =>'Java script','Python' =>'Python', 'Type cript' =>'Type cript', 'VBA' =>'VBA', 'VB' =>'VB', 'Scala' =>'Scala', 'Kotolin' =>'Kotolin','Swift' =>'Swift'])}}</td></tr>
+   <tr><th>使用したいサービス</th><td>
+   {{Form::select('serveres', ['SAKURA' => 'SAKURA', 'CONOHA' => 'CONOHA', 'AZURE' =>'AZURE', 'AWS' =>'AWS','GCP' =>'GCP'])}}</td></tr>
+   <tr><th>使用したいOS</th><td>
+   {{Form::select('os', ['WINDOWS' => 'WINDOWS', 'MACBOOK' => 'MACBOOK', 'Ubuntu' =>'Ubuntu', 'Centos7' =>'Centos7','Soralis' =>'Soralis','AmazonLinux2' =>'AmazonLinux2'])}}</td></tr>
      <input type="submit" value="押して下さい！！">
   </form>
  </table>

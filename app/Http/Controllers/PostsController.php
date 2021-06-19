@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Post;
 use App\Http\Requests\CreatePost;
 
+
 class PostsController extends Controller
 {
     public function index() {
